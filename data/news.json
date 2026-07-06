@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Heavy Rain Alert Issued in Jammu & Kashmir",
+    "category": "J&K",
+    "date": "06 July 2026",
+    "image": "images/news1.jpg",
+    "description": "Weather department has issued a heavy rainfall alert for several districts of Jammu & Kashmir.",
+    "link": "news/rain-alert.html"
+  },
+  {
+    "id": 2,
+    "title": "India Announces New Education Policy Update",
+    "category": "India",
+    "date": "06 July 2026",
+    "image": "images/news2.jpg",
+    "description": "Government releases new education reforms for schools and colleges.",
+    "link": "news/education-update.html"
+  },
+  {
+    "id": 3,
+    "title": "Technology Companies Reveal New AI Tools",
+    "category": "Technology",
+    "date": "06 July 2026",
+    "image": "images/news3.jpg",
+    "description": "Several companies introduced advanced AI features during the latest technology event.",
+    "link": "news/ai-tools.html"
+  },
+  {
+    "id": 4,
+    "title": "Sports Highlights of the Week",
+    "category": "Sports",
+    "date": "06 July 2026",
+    "image": "images/news4.jpg",
+    "description": "Top cricket and football highlights from around the world.",
+    "link": "news/sports-highlights.html"
+  }
+]
