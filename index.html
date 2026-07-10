@@ -7,27 +7,23 @@
 
 <title>StudyVerse – Learn Every Topic | Free Notes for Every Subject</title>
 
-<meta name="description" content="StudyVerse provides free topic-wise notes for every subject. Learn every topic with easy explanations, exam preparation notes, study materials, and educational resources.">
+<meta name="description" content="StudyVerse provides free topic-wise notes for every subject with easy explanations, study materials and educational resources.">
 
-<meta name="keywords" content="StudyVerse, study notes, free notes, topic wise notes, education, science notes, math notes, biology notes, physics notes, chemistry notes, history notes, geography notes, English notes, computer notes, GK notes">
+<meta name="keywords" content="StudyVerse, Notes, Free Notes, Biology Notes, Physics Notes, Chemistry Notes, Sociology Notes, Political Science Notes, Environmental Science Notes">
 
 <meta name="author" content="StudyVerse">
 
 <meta name="robots" content="index, follow">
 
+<!-- Replace with your actual domain later -->
 <link rel="canonical" href="https://studyverse.com/">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="StudyVerse – Learn Every Topic">
-<meta property="og:description" content="Free topic-wise notes for every subject.">
+<meta property="og:description" content="Free Topic Wise Notes For Every Subject">
 <meta property="og:url" content="https://studyverse.com/">
-<meta property="og:site_name" content="StudyVerse">
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="StudyVerse – Learn Every Topic">
-<meta name="twitter:description" content="Free topic-wise notes for every subject.">
 
 <style>
 
@@ -39,9 +35,8 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f5f5f5;
+background:#f4f7fb;
 color:#222;
-line-height:1.6;
 }
 
 header{
@@ -68,24 +63,15 @@ padding:0 15px;
 }
 
 .search input{
-flex:1;
+width:100%;
 padding:15px;
-font-size:18px;
+font-size:17px;
 border:1px solid #ccc;
-border-radius:6px 0 0 6px;
+border-radius:8px;
 outline:none;
 }
 
-.search button{
-padding:15px 25px;
-background:#0d6efd;
-color:#fff;
-border:none;
-cursor:pointer;
-border-radius:0 6px 6px 0;
-}
-
-main{
+.container{
 max-width:900px;
 margin:auto;
 padding:20px;
@@ -94,16 +80,21 @@ padding:20px;
 .note{
 background:#fff;
 padding:20px;
-margin-bottom:15px;
-border-radius:8px;
+margin-bottom:18px;
+border-radius:10px;
 box-shadow:0 2px 8px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.note:hover{
+transform:translateY(-3px);
 }
 
 .note a{
 font-size:22px;
 font-weight:bold;
-text-decoration:none;
 color:#0d6efd;
+text-decoration:none;
 }
 
 .note p{
@@ -117,6 +108,14 @@ color:#fff;
 text-align:center;
 padding:25px;
 margin-top:40px;
+}
+
+.no-result{
+text-align:center;
+padding:30px;
+display:none;
+font-size:18px;
+color:#777;
 }
 
 </style>
@@ -135,41 +134,34 @@ margin-top:40px;
 
 <div class="search">
 
-<input type="text" placeholder="Search any topic...">
-
-<button>Search</button>
+<input
+type="text"
+id="searchBox"
+placeholder="Search any topic...">
 
 </div>
 
-<main>
+<div class="container">
 
-<div class="note">
-<a href="#">Photosynthesis Notes</a>
-<p>Complete notes with easy explanation.</p>
+<div id="topics">
+
 </div>
 
-<div class="note">
-<a href="#">HTML Introduction</a>
-<p>Learn HTML from beginner level.</p>
+<div class="no-result" id="noResult">
+
+No topic found.
+
 </div>
 
-<div class="note">
-<a href="#">Newton's Laws of Motion</a>
-<p>Simple explanation with examples.</p>
 </div>
-
-<div class="note">
-<a href="#">Cell Structure Notes</a>
-<p>Easy biology notes for students.</p>
-</div>
-
-</main>
 
 <footer>
 
 © 2026 StudyVerse. All Rights Reserved.
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
