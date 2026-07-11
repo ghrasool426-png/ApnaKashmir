@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Photosynthesis Notes",
+    "description": "Complete notes with easy explanation.",
+    "url": "Biology/photosynthesis.html"
+  },
+  {
+    "title": "Cell Structure Notes",
+    "description": "Easy biology notes.",
+    "url": "Biology/cell-structure.html"
+  },
+  {
+    "title": "Human Digestive System",
+    "description": "Complete topic notes.",
+    "url": "Biology/human-digestive-system.html"
+  },
+  {
+    "title": "Newton's Laws of Motion",
+    "description": "Simple explanation with examples.",
+    "url": "Physics/newtons-laws.html"
+  },
+  {
+    "title": "Gravity Notes",
+    "description": "Complete gravity notes.",
+    "url": "Physics/gravity.html"
+  },
+  {
+    "title": "Work, Energy and Power",
+    "description": "Physics notes with examples.",
+    "url": "Physics/work-energy-power.html"
+  },
+  {
+    "title": "Atomic Structure",
+    "description": "Easy chemistry notes.",
+    "url": "Chemistry/atomic-structure.html"
+  },
+  {
+    "title": "Chemical Bonding",
+    "description": "Complete chemistry topic.",
+    "url": "Chemistry/chemical-bonding.html"
+  },
+  {
+    "title": "Acids, Bases and Salts",
+    "description": "Important chemistry notes.",
+    "url": "Chemistry/acids-bases-salts.html"
+  },
+  {
+    "title": "Democracy",
+    "description": "Political Science notes.",
+    "url": "Political-Science/democracy.html"
+  },
+  {
+    "title": "Constitution",
+    "description": "Complete Political Science notes.",
+    "url": "Political-Science/constitution.html"
+  },
+  {
+    "title": "Fundamental Rights",
+    "description": "Important topic notes.",
+    "url": "Political-Science/fundamental-rights.html"
+  },
+  {
+    "title": "Climate Change",
+    "description": "Environmental Science notes.",
+    "url": "Environmental-Science/climate-change.html"
+  },
+  {
+    "title": "Biodiversity",
+    "description": "Complete biodiversity notes.",
+    "url": "Environmental-Science/biodiversity.html"
+  },
+  {
+    "title": "Air Pollution",
+    "description": "Easy environmental notes.",
+    "url": "Environmental-Science/air-pollution.html"
+  },
+  {
+    "title": "Culture and Society",
+    "description": "Sociology notes.",
+    "url": "Sociology/culture-and-society.html"
+  },
+  {
+    "title": "Social Change",
+    "description": "Complete sociology topic.",
+    "url": "Sociology/social-change.html"
+  },
+  {
+    "title": "Social Institutions",
+    "description": "Important sociology notes.",
+    "url": "Sociology/social-institutions.html"
+  }
+]
